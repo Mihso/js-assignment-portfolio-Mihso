@@ -1,0 +1,173 @@
+body {
+background-color: rgb(203, 203, 203) ;
+background-image: linear-gradient( rgb(255, 200, 118),rgb(255, 249, 246));
+align-content: center;
+margin: 12px;
+text-align: center;
+font-size: 50px;
+align-self: center;
+max-width: 100%;
+overflow:scroll;
+min-height: 800px;
+position:relative;
+
+}
+
+.mainBody{
+    padding-left: 12px; 
+    padding-right:12px; 
+    font-size: 18px; 
+    border:solid; 
+    border-radius: 10px; 
+    border-width:10px ; 
+    border-color: black;
+    border-style: groove;
+}
+header {
+    padding:12px;
+    border-radius: 24px;
+    background-image: linear-gradient(rgb(111, 111, 111), rgb(22, 22, 22));
+    background-color: black;
+    color:white;
+}
+button {
+background-color: rgb(133, 133, 133);
+border-color: black;
+color:white;
+
+}
+
+@keyframes first {
+    0%   { left:0px; top:0px; transform: rotate(0deg);}
+    50%  { left:85%; top:0px; transform: rotate(180deg);}
+    100% { left:0px; top:0px; transform: rotate(0deg);}
+}
+
+@keyframes second {
+    0% {box-shadow: 0px 0px 5px 5px rgb(128, 217, 255);}
+    50% {box-shadow:0px 0px 30px 20px rgb(80, 232, 246);}
+    100% {box-shadow:0px 0px 5px 5px rgb(128, 217, 255);}
+}
+
+.resumer {
+    animation-name: second;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border-style: ridge; 
+    max-width: 600px; 
+    max-height: 600px; 
+    min-width: 400px; 
+    min-height: 200px; 
+    border-width: 10px; 
+    border-radius: 15px; 
+    border-color: rgb(69, 166, 246);
+}
+
+table {
+    table-layout: auto;
+    align-self: center;
+    align-content: center;
+    border-width: 10px;
+    border-color: rgb(95, 95, 95);
+    border-collapse: collapse;
+    border-style:double;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+
+tbody{
+    table-layout: auto;
+    align-self: center;
+    align-content: center;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+
+tr{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+th{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+td{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.hello {
+    font-size: 100px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fancy{
+    border-style: ridge;
+    border-color:aqua;
+    border-spacing: 2px;
+    border-style: dashed;
+    padding: 4px;
+    border-radius: 20px;
+    margin:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    max-width: 200px;
+}
+
+.linker{
+    font-size: 20px;
+    color:rgb(70, 43, 15);
+}
+
+.buttoner {
+    font-size: 24px;
+    color:white;
+    background-color: rgb(74, 74, 74);
+    border-color: rgb(102, 102, 102);
+    border-radius: 12px;
+    padding:2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: 8px;
+    border-style:outset;
+}
+
+h1 {
+    padding-left:12px; 
+    font-size: 36px;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    display:inline;
+}
+
+footer{
+    margin-top:20px;
+    position: relative ; 
+    background-color: transparent;
+    bottom:1px; 
+    width:95%;
+    margin: auto;
+    vertical-align: bottom; 
+    text-align: center; 
+    align-self: center; 
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:10px;
+    clear:inline-end;
+}

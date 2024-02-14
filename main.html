@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>HELLO</header>
+    <ul>
+        <li><a class="buttoner" href="home.html">Profile</a></li>
+        <li><a class="buttoner" href="about.html">About</a></li>
+        <li><a class="buttoner" href="projects.html">Projects</a></li>
+        <li><a class="buttoner" href="contact.html">Contact</a></li>
+
+    </ul>
+    <main style="margin-bottom: 10px;">
+        <p style="font-size: 24px;margin-bottom: 24px;">Previous amounts</p>
+        <table class="fancy">
+            <thead>
+                <th>equation</th>
+                <th>amount</th>
+            </thead>
+            <tbody id="table">
+            </tbody>
+        </table>
+        <div class ="fancy" style="margin-top: 24px; margin-bottom: 12px;">
+            How are you doing.
+        </div>
+        <div style="border:solid; border-color: black; border-width: 5px; max-width: 75%; margin: auto;">
+        <input type="number" id="number1">
+        <text style ="font-size: 24px;" id="sign"></text>
+        <input type="number" id="number2">
+        <div></div>
+        <button type="button" onclick="add()">add</button>
+        <button type="button" onclick="subtract()">subtract</button>
+        <button type="button" onclick="multiply()">multiply</button>
+        <button type="button" onclick="divide()">divide</button>
+        <div></div>
+        <button type="button" onclick="document.getElementById('tester').innerHTML = tester()">calculate</button>
+        <p id="tester"></p>
+        </div>
+    </main>
+    <script src="main.js"></script>
+    <footer>
+        <h1 style="font-size: 24px;">Links</h1>
+           <a class="linker" href="https://www.linkedin.com/in/mihso-soap/">LinkedIn</a>
+       </footer>
+</body>
+
+</html>
