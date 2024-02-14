@@ -26,17 +26,17 @@
         <div class ="fancy" style="margin-top: 24px; margin-bottom: 12px;">
             How are you doing.
         </div>
-        <div style="border:solid; border-color: black; border-width: 5px; max-width: 75%; margin: auto;">
+        <div style="border:solid; border-color: black; border-style:inset; border-width: 15px; max-width: 75%; margin: auto;">
         <input type="number" id="number1">
         <text style ="font-size: 24px;" id="sign"></text>
         <input type="number" id="number2">
         <div></div>
-        <button type="button" onclick="add()">add</button>
-        <button type="button" onclick="subtract()">subtract</button>
-        <button type="button" onclick="multiply()">multiply</button>
-        <button type="button" onclick="divide()">divide</button>
+        <button class="buttoner" type="button" onclick="add()">add</button>
+        <button class="buttoner" type="button" onclick="subtract()">subtract</button>
+        <button class="buttoner" type="button" onclick="multiply()">multiply</button>
+        <button class="buttoner" type="button" onclick="divide()">divide</button>
         <div></div>
-        <button type="button" onclick="document.getElementById('tester').innerHTML = tester()">calculate</button>
+        <button class="buttoner" type="button" onclick="document.getElementById('tester').innerHTML = tester()">calculate</button>
         <p id="tester"></p>
         </div>
     </main>
