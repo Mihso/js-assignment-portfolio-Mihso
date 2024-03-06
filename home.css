@@ -113,6 +113,10 @@ tr{
     border-style: solid;
 }
 
+td{
+    padding: 10px;
+}
+
 th{
     border-color: black;
     border-width: 2px;
